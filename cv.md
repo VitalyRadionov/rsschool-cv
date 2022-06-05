@@ -14,6 +14,7 @@ An experienced website developer specializing in HTML websites and phone applica
 - HTML
 - CSS
 - JavaScript
+- Figma
 
 ## __Code Example__
 ```js
