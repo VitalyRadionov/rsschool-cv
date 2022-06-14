@@ -5,11 +5,109 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML, CSS, Git Basics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel=" stylesheet" href="css/style.css">
+  <title>CV</title>
 </head>
 
 <body>
-
+  <header class="header">
+    <figure class="foto">
+      <img src="img/me.jpg" alt="Radionov_Vitaly">
+    </figure>
+    <div class="info">
+      <div class="name">Radionov Vitaly</div>
+      <div class="position">Front-End Developer</div>
+    </div>
+  </header>
+  <main>
+    <section class="personal">
+      <div class="contacts">
+        <h3>Contacts</h3>
+        <ul>
+          <li><span class="font-bold">Location:</span> Minsk, Belarus</li>
+          <li><span class="font-bold">Phone:</span> +375(33)698-94-28</li>
+          <li><span class="font-bold">Email:</span> radionovv89@gmail.com</li>
+          <li><span class="font-bold">Discord:</span> Vitaly#0318</li>
+          <li><span class="font-bold">GitHub:</span> <a href="https://github.com/VitalyRadionov/"
+              target="_blank">VitalyRadionov</a>
+          </li>
+        </ul>
+      </div>
+      <div class="about">
+        <h3>About</h3>
+        <p>An experienced website developer specializing in HTML websites and phone applications.
+          Have done numerous projects involving front and back end development.</p>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>GitHub</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+      <div class="education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <span class="font-bold">University:</span>
+            Belarusian State University, Radiophysicist (2010-2016)
+          </li>
+          <li>
+            <span class="font-bold">Courses:</span>
+            IT-Academy, Front-end Developer, Web application development with JavaScript (july 2021 - november 2021)
+          </li>
+        </ul>
+      </div>
+      <div class="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>Russian - Native</li>
+          <li>English - A2</li>
+        </ul>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="code-example">
+        <h3>Code example</h3>
+        <pre>
+          <code>
+<span class="font-bold">function</span> multiply(a, b) {
+  var c = 0;
+  c = a * b;
+  return c;
+}
+                  </code>
+        </pre>
+      </div>
+      <div class="my-projects">
+        <h3>Projects</h3>
+        <div class="projects__list">
+          <a href="https://vitalyradionov.github.io/minsk_planetarium/" target="_blank">
+            <figure class="project project-1">
+              <figcaption>Minsk Planetarium</figcaption>
+            </figure>
+          </a>
+          <a href="https://vitalyradionov.github.io/mortal-kombat/" target="_blank">
+            <figure class="project project-2">
+              <figcaption>Mortal Kombat</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a class="link-github" href="https://github.com/VitalyRadionov" target="_blank"></a>
+    <div class="year">2022</div>
+    <a class="link-rsschool" href="https://rs.school/js/" target="_blank"></a>
+  </footer>
 </body>
 
 </html>
