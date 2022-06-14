@@ -68,6 +68,7 @@ main {
 }
 
 h2 {
+  font-style: italic;
   font-size: 26px;
   font-weight: bold;
   text-decoration: underline;
