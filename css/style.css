@@ -68,7 +68,6 @@ main {
 }
 
 h2 {
-  font-style: italic;
   font-size: 26px;
   font-weight: bold;
   text-decoration: underline;
@@ -124,14 +123,15 @@ pre {
   border-radius: 10px;
 }
 
-.project-1 {
-  background: center / contain linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
-    center / contain no-repeat url('/img/minsk_planetarium.png');
+.project img {
+  width: 100%;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
 }
 
-.project-2 {
-  background: center / contain linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
-    center / contain no-repeat url('/img/mortal_kombat.png');
+.project figcaption {
+  position: relative;
 }
 
 footer {
@@ -142,18 +142,16 @@ footer {
   border-radius: 20px 20px 0px 0px;
 }
 
-.link-github {
+.link-github img {
   width: 45px;
   height: 45px;
-  background: center / contain no-repeat url('/img/mark-github.svg');
 }
 
 .year {
   font-size: 25px;
 }
 
-.link-rsschool {
+.link-rsschool img {
   width: 130px;
   height: 65px;
-  background: center / contain no-repeat url('/img/rs_school_js.svg');
 }
