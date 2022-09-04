@@ -134,7 +134,7 @@ code .variable {
   align-items: center;
 
   border-radius: 10px;
-  background-color: rgba(42, 50, 60, 0.5);
+  background-color: rgb(9, 11, 13);
 }
 
 .project {
@@ -153,13 +153,7 @@ code .variable {
 
 .project img {
   width: 100%;
-  position: relative;
-  top: 20px;
   border-radius: 10px;
-}
-
-.project figcaption {
-  position: relative;
 }
 
 footer {
