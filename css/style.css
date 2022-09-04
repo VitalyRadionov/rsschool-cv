@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.header,
+main,
+footer {
+  padding: 25px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(23, 28, 34);
+}
+
+.header {
+  margin-bottom: 25px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+.info {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.position {
+  color: rgb(167, 167, 167);
+}
+
+.foto {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.foto img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+main {
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.personal {
+  padding-right: 40px;
+  width: 50%;
+  border-right: 5px solid rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul,
+p {
+  margin: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.font-bold {
+  font-weight: 900;
+}
+
+.experience {
+  padding-left: 40px;
+  width: 50%;
+}
+
+pre {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: rgb(9, 11, 13);
+  color: rgb(230, 255, 198);
+}
+
+code {
+  margin: 0;
+}
+
+code .declaration {
+  color: rgb(72, 115, 207);
+}
+
+code .operator {
+  color: white;
+}
+
+code .statement {
+  color: rgb(218, 79, 218);
+}
+
+code .grouping-operator {
+  color: rgb(255, 255, 68);
+}
+
+code .variable {
+  color: rgb(145, 238, 255);
+}
+
+.projects__list {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: rgb(9, 11, 13);
+}
+
+.project {
+  width: 300px;
+  height: 156px;
+
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 10px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.link-github img {
+  width: 45px;
+  height: 45px;
+}
+
+.year {
+  font-size: 25px;
+}
+
+.link-rsschool img {
+  width: 130px;
+  height: 65px;
+}
