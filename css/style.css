@@ -1,8 +1,11 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
   color: white;
 }
 
@@ -97,6 +100,10 @@ pre {
   border-radius: 10px;
   background-color: rgb(9, 11, 13);
   color: rgb(230, 255, 198);
+}
+
+code {
+  margin: 0;
 }
 
 code .declaration {
